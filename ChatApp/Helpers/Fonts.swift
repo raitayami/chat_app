@@ -23,7 +23,7 @@ extension Font {
     }
     
     public static var tabBar: Font{
-        return Font.custom("LexendDeca-Regular", size: 14)
+        return Font.custom("LexendDeca-Regular", size: 12)
     }
     
     public static var settings: Font{
@@ -39,7 +39,7 @@ extension Font {
     }
     
     public static var chatHeading: Font{
-        return Font.custom("LexendDeca-Regular", size: 19)
+        return Font.custom("LexendDeca-SemiBold", size: 19)
     }
     
 }

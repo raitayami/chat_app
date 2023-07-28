@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A334BDB32A730CC700803732 /* OnboardingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334BDB22A730CC700803732 /* OnboardingButtonStyle.swift */; };
+		A334BDB52A73D67C00803732 /* CreateProfileTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334BDB42A73D67B00803732 /* CreateProfileTextFieldStyle.swift */; };
+		A3B0BEE92A7162D30034430C /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEE82A7162D30034430C /* OnboardingContainerView.swift */; };
+		A3B0BEEB2A71650A0034430C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEEA2A71650A0034430C /* WelcomeView.swift */; };
+		A3B0BEED2A7165120034430C /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEEC2A7165120034430C /* PhoneNumberView.swift */; };
+		A3B0BEEF2A7165220034430C /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEEE2A7165220034430C /* VerificationView.swift */; };
+		A3B0BEF12A7165350034430C /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEF02A7165350034430C /* CreateProfileView.swift */; };
+		A3B0BEF32A7165430034430C /* SyncContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEF22A7165430034430C /* SyncContactsView.swift */; };
 		A3E2F30A2A6DBF4A0052A78F /* ChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E2F3092A6DBF4A0052A78F /* ChatAppApp.swift */; };
 		A3E2F30C2A6DBF4A0052A78F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E2F30B2A6DBF4A0052A78F /* RootView.swift */; };
 		A3E2F30E2A6DBF4E0052A78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E2F30D2A6DBF4E0052A78F /* Assets.xcassets */; };
@@ -27,6 +35,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A334BDB22A730CC700803732 /* OnboardingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButtonStyle.swift; sourceTree = "<group>"; };
+		A334BDB42A73D67B00803732 /* CreateProfileTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileTextFieldStyle.swift; sourceTree = "<group>"; };
+		A3B0BEE82A7162D30034430C /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		A3B0BEEA2A71650A0034430C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A3B0BEEC2A7165120034430C /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		A3B0BEEE2A7165220034430C /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		A3B0BEF02A7165350034430C /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
+		A3B0BEF22A7165430034430C /* SyncContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncContactsView.swift; sourceTree = "<group>"; };
 		A3E2F3062A6DBF4A0052A78F /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E2F3092A6DBF4A0052A78F /* ChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppApp.swift; sourceTree = "<group>"; };
 		A3E2F30B2A6DBF4A0052A78F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -60,6 +76,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3B0BEE72A7162B90034430C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A3B0BEE82A7162D30034430C /* OnboardingContainerView.swift */,
+				A3B0BEEA2A71650A0034430C /* WelcomeView.swift */,
+				A3B0BEEC2A7165120034430C /* PhoneNumberView.swift */,
+				A3B0BEEE2A7165220034430C /* VerificationView.swift */,
+				A3B0BEF02A7165350034430C /* CreateProfileView.swift */,
+				A3B0BEF22A7165430034430C /* SyncContactsView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		A3E2F2FD2A6DBF4A0052A78F = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				A3E2F3232A6E7C860052A78F /* Fonts.swift */,
+				A334BDB22A730CC700803732 /* OnboardingButtonStyle.swift */,
+				A334BDB42A73D67B00803732 /* CreateProfileTextFieldStyle.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -124,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				A3E2F30B2A6DBF4A0052A78F /* RootView.swift */,
+				A3B0BEE72A7162B90034430C /* Onboarding */,
 				A3E2F3272A6E7FC00052A78F /* Custom Tab Bar */,
 			);
 			path = Views;
@@ -229,11 +261,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B0BEF32A7165430034430C /* SyncContactsView.swift in Sources */,
 				A3E2F3382A6FEF660052A78F /* AppDelegate.swift in Sources */,
+				A3B0BEE92A7162D30034430C /* OnboardingContainerView.swift in Sources */,
 				A3E2F3292A6E7FD30052A78F /* CustomTabBar.swift in Sources */,
+				A334BDB32A730CC700803732 /* OnboardingButtonStyle.swift in Sources */,
 				A3E2F30C2A6DBF4A0052A78F /* RootView.swift in Sources */,
+				A3B0BEEB2A71650A0034430C /* WelcomeView.swift in Sources */,
 				A3E2F33C2A7055760052A78F /* AuthViewModel.swift in Sources */,
+				A3B0BEF12A7165350034430C /* CreateProfileView.swift in Sources */,
+				A3B0BEED2A7165120034430C /* PhoneNumberView.swift in Sources */,
 				A3E2F3242A6E7C860052A78F /* Fonts.swift in Sources */,
+				A3B0BEEF2A7165220034430C /* VerificationView.swift in Sources */,
+				A334BDB52A73D67C00803732 /* CreateProfileTextFieldStyle.swift in Sources */,
 				A3E2F32B2A6E8B730052A78F /* TabBarButton.swift in Sources */,
 				A3E2F30A2A6DBF4A0052A78F /* ChatAppApp.swift in Sources */,
 			);
